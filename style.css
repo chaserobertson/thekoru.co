@@ -14,12 +14,12 @@
 }
 
 body {
-    font-family: 'Andale Mono';
+    font-family: 'Seaweed Script';
     line-height: 1.6;
     letter-spacing: 0.00em;
     color: var(--text-color);
     background-color: var(--background-color);
-    background-image: url('assets/embossed.png');
+    background-image: url('assets/embossed.jpg');
     background-attachment: fixed;
     background-repeat: repeat;
     background-position: center;
@@ -34,14 +34,13 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://source.unsplash.com/1600x900/?ice%20cream');
+    /*background: linear-gradient(rgba(0,0,0,0.5));*/
     background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
     align-items: center;
     text-align: center;
-    color: white;
 }
 
 .hero-content {
@@ -51,8 +50,13 @@ body {
 }
 
 .hero h1 {
+    font-family: 'Seaweed Script';
     font-size: 3.5rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
+}
+
+.hero a, p {
+    margin: 1rem;
 }
 
 /* Grid Layout */
@@ -113,19 +117,6 @@ body {
 .contact-form {
     max-width: 600px;
     margin: 2rem auto;
-}
-
-.form-group {
-    margin-bottom: 1rem;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 0.8rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 1rem;
 }
 
 /* CTA Button */
