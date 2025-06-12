@@ -6,50 +6,10 @@ const templates = {
             <div class="hero-content">
                 <h1>koru&co.</h1>
                 <p>Handcrafted Passionfruit Ice Cream</p>
-                <a href="#products" class="cta-button">Discover Our Ice Cream</a>
-                <a href="#order" class="cta-button">Get Some</a>
-            </div>
-        </section>
-    `,
-
-    'products': `
-        <div class="container">
-            <div class="grid">
-                <div class="product-card">
-                    <div class="product-content">
-                        <i class="fas fa-seedling fa-3x"></i>
-                        <h3>Dairy-based Passionfruit Ice Cream</h3>
-                        <p>Made with fresh passionfruit harvested from our own backyard, mixed in with real cream.</p>
-                        <p class="price">$10</p>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-content">
-                        <i class="fas fa-ice-cream fa-3x"></i>
-                        <h3>Coconut-based Passionfruit Ice Cream</h3>
-                        <p>Made with fresh passionfruit harvested from our own backyard, mixed in with coconut cream.</p>
-                        <p class="price">$10</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About Section -->
-        <section id="about" class="about">
-            <div class="container">
-                <h2>made by us</h2>
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>
-                            koru&co. is a local ice cream shop specializing in handcrafted passionfruit ice cream.
-                            Using only the finest ingredients and traditional methods,
-                            we create ice cream that brings the tropical flavors of passionfruit to every bite.
-                        </p>
-                        <p>
-                            Visit us in-store to try our delicious creations and experience the passion behind our 
-                            passionfruit ice cream.
-                        </p>
-                    </div>
-                </div>
+                <a href="#order" class="cta-button">get some for yourself</a>
+                <br/>
+                <a href="#info" class="cta-button">how you'll get your order</a>
+                <a href="#contact" class="cta-button">get in touch with us</a>
             </div>
         </section>
     `,
@@ -68,7 +28,65 @@ const templates = {
                 </div>
             </div>
         </div>
-    `
+    `,
+
+    'info': `
+        <div class="container">
+            <div class="info-container">
+                <h1>HOW THIS WORKS</h1>
+                <div>
+                    <ol>
+                        <li>
+                            <b>Place your order</b><br/>
+                            All orders must be submitted through our website. 
+                            Limited quantities are available, so act quickly! 
+                            You don't want to miss out.
+                        </li>
+                        <li>
+                            <b>Wait for a pickup text</b><br/>
+                            Once your order is ready, we'll send you a text with the available pickup dates & time frame.
+                            The pickup location is our home in South San Clemente - specifics will be included in your pickup text.
+                            Please make sure your contact info is correct!
+                        </li>
+                        <li>
+                            <b>Pick up at your convenience</b><br/>
+                            Come by during the pickup window listed in our message to you - no need to schedule a specific time.
+                        </li>
+                    </ol>
+                    <p><i>
+                        Pickups are usually available Friday-Sunday, 12pm-4pm. (subject to change)
+                    </i></p>
+                </div>
+                <h1>TIPS</h1>
+                <ul>
+                    <li>
+                        <b>Storage & Serving</b><br/>
+                        Keep your ice cream frozen until <b>just before</b> you're ready to indulge.
+                        For the best texture & flavour, lit it rest at room temperature for about <b>10 minutes</b> before digging in.
+                        Trust us - it's worth the wait!
+                    </li>
+                    <li>
+                        <b>Refreezing Tip</b><br/>
+                        If you don't finish the pint, you can refreeze it.
+                        Just try to prevent it from fully melting, as that can change the texture.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    `,
+
+    'contact': `
+        <div class="container">
+            <div class="contact-container">
+                <h1>GET IN TOUCH</h1>
+                <h3>Email: <a href="mailto:thekoru.co@gmail.com">thekoru.co@gmail.com</a></h3>
+                <p>
+                    Please direct special order requests and other inquiries here.
+                    It may take a day or two, but we'll get back to you as soon as we can!
+                </p>
+            </div>
+        </div>
+    `,
 };
 
 document.addEventListener('DOMContentLoaded', function() {
