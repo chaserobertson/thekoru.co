@@ -18,17 +18,17 @@ const templates = {
                 <div class="product-card">
                     <div class="product-content">
                         <i class="fas fa-seedling fa-3x"></i>
-                        <h3>Home-Grown Passionfruit</h3>
-                        <p>Our signature flavor, made with fresh passionfruit harvested from our own backyard.</p>
-                        <p class="price">$5.99</p>
+                        <h3>Dairy-based Passionfruit Ice Cream</h3>
+                        <p>Made with fresh passionfruit harvested from our own backyard, mixed in with real cream.</p>
+                        <p class="price">$10</p>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="product-content">
                         <i class="fas fa-ice-cream fa-3x"></i>
-                        <h3>Organic Range</h3>
-                        <p>Truly organic passionfruit blended into smooth and delicious ice cream.</p>
-                        <p class="price">$6.99</p>
+                        <h3>Coconut-based Passionfruit Ice Cream</h3>
+                        <p>Made with fresh passionfruit harvested from our own backyard, mixed in with coconut cream.</p>
+                        <p class="price">$10</p>
                     </div>
                 </div>
             </div>
