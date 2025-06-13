@@ -45,7 +45,7 @@ const templates = {
                                 It’s not every day you find a flavor this tropical and refreshing done so well.
                                 Don’t miss this! I’ll be ordering over and over again!"
                             </p>
-                            <p class="review-author">- James T.</p>
+                            <p class="review-author">- Marie</p>
                         </div>
                     </div>
                     <div class="order-review">
