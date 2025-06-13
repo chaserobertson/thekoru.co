@@ -21,8 +21,7 @@ const templates = {
                     <img src="assets/spiralB&W.jpg" alt="koru&co. logo">
                 </div>
                 <div class="order-form">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd2YrCTdg_MI1bJRRofYz76m4fJmcDQuOGFdwhdXytPIU96eA/viewform?embedded=true"
-                    width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0" loading="lazy">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd2YrCTdg_MI1bJRRofYz76m4fJmcDQuOGFdwhdXytPIU96eA/viewform?embedded=true">
                         Loading…
                     </iframe>
                 </div>
@@ -62,7 +61,7 @@ const templates = {
                     <li>
                         <b>Storage & Serving</b><br/>
                         Keep your ice cream frozen until <b>just before</b> you're ready to indulge.
-                        For the best texture & flavour, lit it rest at room temperature for about <b>10 minutes</b> before digging in.
+                        For the best texture & flavour, let it rest at room temperature for about <b>10 minutes</b> before digging in.
                         Trust us - it's worth the wait!
                     </li>
                     <li>
@@ -84,6 +83,11 @@ const templates = {
                     Please direct special order requests and other inquiries here.
                     It may take a day or two, but we'll get back to you as soon as we can!
                 </p>
+                <div class="contact-form">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd1JFasOaVq-9IPWx_Fcx-nfVhjUrBBC3QUWudsh1TTpCBQDw/viewform?embedded=true">
+                        Loading…
+                    </iframe>
+                </div>
             </div>
         </div>
     `,
