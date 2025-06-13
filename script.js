@@ -10,6 +10,8 @@ const templates = {
                 <br/>
                 <a href="#info" class="cta-button">how you'll get your order</a>
                 <a href="#contact" class="cta-button">get in touch with us</a>
+                <br/>
+                <a href="#contact" class="cta-button">leave a review</a>
             </div>
         </section>
     `,
@@ -17,13 +19,38 @@ const templates = {
     'order': `
         <div class="container">
             <div class="order-container">
-                <div class="order-image">
-                    <img src="assets/spiralB&W.jpg" alt="koru&co. logo">
-                </div>
                 <div class="order-form">
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd2YrCTdg_MI1bJRRofYz76m4fJmcDQuOGFdwhdXytPIU96eA/viewform?embedded=true">
                         Loading…
                     </iframe>
+                </div>
+                <div class="order-image">
+                    <img src="assets/spiralB&W.jpg" alt="koru&co. logo">
+                    <div class="reviews-container">
+                        <div class="review">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">
+                                "A smooth, creamy and refreshingly tangy treat- made with REAL homegrown passion fruit and a whole lot of love!
+                                You can literally taste the PASSION (pun intended) that shows in each bite!
+                                My new favorite dessert that I've been missing out on my whole life-but not anymore! Yum!"
+                            </p>
+                            <p class="review-author">- Willow</p>
+                        </div>
+                        <div class="review">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">
+                                "I am blown away by their homemade passion fruit ice cream.
+                                It’s creamy, tangy, and perfectly balanced with just the right amount of sweetness
+                                You can tell everything is made with care, and the passion fruit flavor truly stands out as something special.
+                                It’s not every day you find a flavor this tropical and refreshing done so well.
+                                Don’t miss this! I’ll be ordering over and over again!"
+                            </p>
+                            <p class="review-author">- James T.</p>
+                        </div>
+                    </div>
+                    <div class="order-review">
+                        <a href="#contact" class="cta-button">leave a review</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,7 +83,21 @@ const templates = {
                         Pickups are usually available Friday-Sunday, 12pm-4pm. (subject to change)
                     </i></p>
                 </div>
-                <h1>TIPS</h1>
+                <h1>PAYMENT</h1>
+                <div>
+                    <ul>
+                        <li>
+                            <b>$10 per pint</b><br/>
+                            $10 flat! Easy peasy. 
+                        </li>
+                        <li>
+                            <b>Cash or Venmo</b><br/>
+                            We'll accept either cash or Venmo at pickup.
+                            If you're going the cash route, exact change is appreciated.
+                        </li>
+                    </ul>
+                </div>
+                <h1>PRO TIPS</h1>
                 <ul>
                     <li>
                         <b>Storage & Serving</b><br/>
@@ -83,6 +124,7 @@ const templates = {
                     Please direct special order requests and other inquiries here.
                     It may take a day or two, but we'll get back to you as soon as we can!
                 </p>
+                <h1>LEAVE A REVIEW</h1>
                 <div class="contact-form">
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd1JFasOaVq-9IPWx_Fcx-nfVhjUrBBC3QUWudsh1TTpCBQDw/viewform?embedded=true">
                         Loading…
